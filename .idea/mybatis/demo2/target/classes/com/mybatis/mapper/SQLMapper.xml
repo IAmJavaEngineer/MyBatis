@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.SQLMapper">
+    <select id="MoHuSelect" resultType="User">
+        select * from t_user where username like '%${username}%'
+        <!--select * from t_user where username like concat('%', #{username}, '%')-->
+        <!--select * from t_user where username like "%"#{username}"%"-->
+    </select>
+
+    <delete id="DeleteUser">
+        delete from t_user where id in (${ids})
+    </delete>
+
+    <select id="getAllUser" resultType="User">
+        select * from ${table}
+    </select>
+
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="age">
+        insert into t_user values(null, #{username}, #{password}, #{age}, #{sex}, #{email})
+    </insert>
+
+
+
+</mapper>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27d62f31-9f61-4490-b00f-6cae1b3cad80" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="16f941f7-284a-45b1-8284-78c44100e548" value="Blue" />
+    </colors>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="mybatis-config" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Mybatis-mapper" />
+        <option value="Mybatis-config" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/demo4/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Environment/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="E:\Environment\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25rWsdphYjxfjPrc5s9fxTfnlZ5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21258907" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyBatis\mybatis\demo4\src\main\java\com\mybatis\utils" />
+      <recent name="E:\MyBatis\mybatis\demo4\src\main\resources" />
+      <recent name="E:\MyBatis\mybatis\demo3\src\main\resources" />
+      <recent name="E:\MyBatis\mybatis\demo2\src\main\resources" />
+      <recent name="E:\MyBatis\mybatis\demo1\src\main\resources\com\mybatis\mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyBatis\mybatis\demo4\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mybatis.mapper" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mybatis.mapper" />
+      <recent name="com.mybatis.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mybatis.utils" />
+      <recent name="com.mybatis.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PageHelperTest.testPagehelper">
+    <configuration name="DeptMapperTest.updateByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.mapper.DeptMapperTest" />
+      <option name="METHOD_NAME" value="updateByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpMapperTest.selectByExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.mapper.EmpMapperTest" />
+      <option name="METHOD_NAME" value="selectByExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpMapperTest.updateByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.mapper.EmpMapperTest" />
+      <option name="METHOD_NAME" value="updateByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpMapperTest.updateByPrimaryKeySelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.mapper.EmpMapperTest" />
+      <option name="METHOD_NAME" value="updateByPrimaryKeySelective" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageHelperTest.testPagehelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.mapper.PageHelperTest" />
+      <option name="METHOD_NAME" value="testPagehelper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DeptMapperTest.updateByPrimaryKey" />
+      <item itemvalue="JUnit.EmpMapperTest.updateByPrimaryKey" />
+      <item itemvalue="JUnit.EmpMapperTest.selectByExample" />
+      <item itemvalue="JUnit.EmpMapperTest.updateByPrimaryKeySelective" />
+      <item itemvalue="JUnit.PageHelperTest.testPagehelper" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PageHelperTest.testPagehelper" />
+        <item itemvalue="JUnit.EmpMapperTest.updateByPrimaryKeySelective" />
+        <item itemvalue="JUnit.EmpMapperTest.updateByPrimaryKey" />
+        <item itemvalue="JUnit.EmpMapperTest.selectByExample" />
+        <item itemvalue="JUnit.DeptMapperTest.updateByPrimaryKey" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27d62f31-9f61-4490-b00f-6cae1b3cad80" name="Changes" comment="" />
+      <created>1646285893924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646285893924</updated>
+      <workItem from="1646285895184" duration="12220000" />
+      <workItem from="1646445281575" duration="5652000" />
+      <workItem from="1646458707590" duration="2209000" />
+      <workItem from="1646460936325" duration="420000" />
+      <workItem from="1646461369010" duration="9710000" />
+      <workItem from="1646547422993" duration="1297000" />
+      <workItem from="1646560893209" duration="17000" />
+      <workItem from="1646642555100" duration="2820000" />
+      <workItem from="1646810091463" duration="9742000" />
+      <workItem from="1646904183584" duration="4162000" />
+      <workItem from="1646988785527" duration="3984000" />
+      <workItem from="1647064972861" duration="7679000" />
+      <workItem from="1647150041445" duration="3738000" />
+      <workItem from="1647410840331" duration="7218000" />
+      <workItem from="1647485986758" duration="4944000" />
+      <workItem from="1647670124895" duration="14042000" />
+      <workItem from="1647875922786" duration="1645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

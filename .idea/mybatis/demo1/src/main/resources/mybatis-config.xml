@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--引入properties文件，这样就可以${属性名}的方式访问属性值-->
+    <properties resource="jdbc.properties"></properties>
+
+<!--    以包为单位，将包下所有全类名设置别名，默认就是类名且不区分大小写-->
+    <typeAliases>
+        <package name="com.mybatis.pojo"></package>
+    </typeAliases>
+
+    <!--
+        environments设置多个连接数据库的环境
+        属性：default：设置默认使用的环境id。environments中可能有多个environment，但一个模块只使用一个连接数据库的环境
+
+    -->
+    <environments default="development">
+<!--
+        environment: 配置某个具体的环境
+        属性：id：表示连接数据库环境的唯一标识，不能重复-->
+        <environment id="development">
+<!--
+            transactionManager：设置事务管理方式
+            属性：type：”JDBC/MANAGED"
+            JDBC: 表示当前环境中，执行sql语句时，使用的时jdbc中原生的事务管理方式，事务的提交或回滚需要手动处理
+            MANAGED：被管理，例如Spring-->
+            <transactionManager type="JDBC"/>
+            <!--
+                dataSource: 配置数据源
+                属性：type：设置数据源的类型
+                type="POOLED|UNPOOLED|JNDI
+                POOLED: 表示使用数据库连接池缓存数据库连接
+                UNPOOLED：表示不使用数据库连接池
+                JNDI：表示使用上下文的数据库-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url"
+                          value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--引入映射文件-->
+<!--    <mappers>-->
+<!--        <mapper resource="mapper/UserMapper.xml"/>-->
+<!--    </mappers>-->
+<!--    以包为单位，将包下所以映射文件全部引入-->
+    <mappers>
+<!--        name的值和Mapper接口的包名一样，并且映射文件所在的文件夹名要跟包名一样，resources创建文件夹用/隔开-->
+        <package name="com.mybatis.mapper"/>
+    </mappers>
+</configuration>
